@@ -1,10 +1,21 @@
-create table usuarios (
-  nombre varchar (30)
-  clave varchar (10)
-  );
-  
-  describe usuarios;
-  
-  drop table usuarios;
-  
-  drop table if exists usuarios;
+drop table if exists agenda;
+
+create table agenda (
+nombre varchar (20),
+domicilio varchar (30),
+telefono varchar (11)
+);
+
+/*create table agenda (
+nombre varchar (20),
+domicilio varchar (30),
+telefono varchar (11)
+);*/
+
+show tables;
+
+describe agenda;
+
+drop table if exists agenda;
+
+drop table agenda;
