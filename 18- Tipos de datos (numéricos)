@@ -1,0 +1,11 @@
+drop table if exists pedidos;
+create table pedidos(
+numero int unsigned auto_increment,
+nombre varchar(30),
+tipo varchar(30),
+precio decimal(2,2),
+cantidad integer,
+domicilio varchar(30),
+primary key (numero)
+);
+describe pedidos;
